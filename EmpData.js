@@ -24,22 +24,28 @@ function makeAJAXCall(methodType, url, callback, async = true, data = null) {
     } else xhr.send();
     console.log(methodType + " request sent to the server");
 }
-const getURL = "http://localhost:3000/employees/";
+const getURL = "http://localhost:3000/employee/";
 
 function getUserDetails(data) {
     console.log("Get User Data " + data);
 }
 makeAJAXCall("GET", getURL, getUserDetails);
 
-const deleteURL = "http://localhost:3000/employees/3";
+const deleteURL = "http://localhost:3000/employee/3";
 
 function userDeleted(data) {
     console.log("User Deleted " + data);
 }
 makeAJAXCall("DELETE", deleteURL, userDeleted, false);
 
-const postURL = "http://localhost:3000/employees/";
-const emplData = { "name": "Ragini", "salary": "600000" };
+const postURL = "http://localhost:3000/employee/";
+const emplData = {
+    "name": "Ragini",
+    "gender": "Female",
+    "department": "HR",
+    "salary": "600000",
+    "startDate": "25-12-2022"
+};
 
 function userAdded(data) {
     console.log("User Added: " + data);

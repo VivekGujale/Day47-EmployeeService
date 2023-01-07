@@ -1,36 +1,36 @@
 {
-    "employee": [
-        {
-            "id": "1",
-            "name": "Sagar",
-            "gender": "Male",
-            "department": "",
-            "salary": "700000",
-            "startDate": "20-10-2022"
-        },
-        {
-            "id": "2",
-            "name": "Shriya",
-            "gender": "Female",
-            "department": "",
-            "salary": "650000",
-            "startDate": "05-01-2022"
-        },
-        {
-            "id": "3",
-            "name": "Ragini",
-            "gender": "Female",
-            "department": "",
-            "salary": "600000",
-            "startDate": "25-12-2022"
-        },
-        {
-            "id": "4",
-            "name": "Sandip",
-            "gender": "Male",
-            "department": "",
-            "salary": "800000",
-            "startDate": "12-07-2022"
-        }
-    ]
+  "employee": [
+    {
+      "id": "1",
+      "name": "Sagar",
+      "gender": "Male",
+      "department": "",
+      "salary": "700000",
+      "startDate": "20-10-2022"
+    },
+    {
+      "id": "2",
+      "name": "Shriya",
+      "gender": "Female",
+      "department": "",
+      "salary": "650000",
+      "startDate": "05-01-2022"
+    },
+    {
+      "id": "3",
+      "name": "Ragini",
+      "gender": "Female",
+      "department": "",
+      "salary": "600000",
+      "startDate": "25-12-2022"
+    },
+    {
+      "id": "4",
+      "name": "Sandip",
+      "gender": "Male",
+      "department": "",
+      "salary": "800000",
+      "startDate": "12-07-2022"
+    }
+  ]
 }
